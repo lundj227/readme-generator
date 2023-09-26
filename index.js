@@ -10,7 +10,7 @@ const questions = [
     'How is your project installed?',
     'How should it be used?',
     'What licence did you use?',
-    'How can others contribute?',
+    'What guidelines should those interested in contributing follow?',
     'How should it be tested?',
     'What is your github username?',
     'What is an email people can use to ask you questions about your project?'];
@@ -57,7 +57,7 @@ function writeToFile(fileName, data) {
         },
         {
             type: 'input',
-            messsage: questions[6],
+            message: questions[6],
             name: 'contribution'
         },
         {
