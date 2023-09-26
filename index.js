@@ -77,7 +77,7 @@ function writeToFile(fileName, data) {
         }
         ])
         .then((response) => 
-        fs.appendFile('professionalREADME.md', generateMarkdown(response), (err) => {
+        fs.appendFile('professionalREADME2.md', generateMarkdown(response), (err) => {
             if (err) throw err;
             console.log('Your professional README file has been created!')
         }));
