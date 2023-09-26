@@ -9,7 +9,7 @@ const questions = [
     'Is your README long enough for a table of contents?',
     'How is your project installed?',
     'How should it be used?',
-    'What licence did you use?',
+    'What license did you use?',
     'What guidelines should those interested in contributing follow?',
     'How should it be tested?',
     'What is your github username?',
